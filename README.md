@@ -2,6 +2,8 @@
 
 Methods that convert positive decimals into negative decimals and vice versa.
 
+The negateDecimal class can be accessed in the [src folder](src) or by [clicking here](src/NegateDecimal.java).
+
 ```Java
 NegateDecimal negateDecimal = new NegateDecimal(); // One way of getting the negateDecimal class.
 ```
