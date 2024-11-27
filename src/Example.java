@@ -4,14 +4,14 @@ public class Example {
     private static NegateDecimal negateDecimal = new NegateDecimal();
 
     public static void main(String[] args) {
-        System.out.println("---- DOUBLES ----");
+        printHeading("DOUBLES");
         revealNegatedDouble(156.415);
         revealNegatedDouble(1);
         revealNegatedDouble(0);
-        System.out.println("---- FLOAT ----");
+        printHeading("FLOATS");
         revealNegatedFloat(345.4f);
-        revealNegatedFloat(1);
-        revealNegatedFloat(0);
+        revealNegatedFloat(1f);
+        revealNegatedFloat(0f);
     }
 
     private static void revealNegatedDouble(double number) {
@@ -22,5 +22,9 @@ public class Example {
     private static void revealNegatedFloat(float number) {
         System.out.println(String.format("Negated float of %sf:", number));
         System.out.println(negateDecimal.negateFloat(number));
+    }
+
+    private static void printHeading(String title) {
+        System.out.println(String.format("---- %s ----", title));
     }
 }
