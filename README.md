@@ -4,7 +4,7 @@ Methods that convert positive decimals into negative decimals.
 
 ```Java
 NegateDecimal negateDecimal = new NegateDecimal(); // One way of getting the negateDecimal class.
-``
+```
 
 ## Negate decimal methods
 
