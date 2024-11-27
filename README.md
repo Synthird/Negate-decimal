@@ -19,3 +19,7 @@ Converts a positive double into a negative double.
 ```Java
 negateDecimal.negateDouble(5.0); // Returns -5.0 as a double.
 ```
+
+# License
+
+This repository contains the MIT license. You must give credit if you are going to use its source code.
