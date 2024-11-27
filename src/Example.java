@@ -9,11 +9,13 @@ public class Example {
         revealNegatedDouble(1.0);
         revealNegatedDouble(6.0);
         revealNegatedDouble(0);
+        revealNegatedDouble(-9.0);
         printHeading("FLOATS");
         revealNegatedFloat(156.415f);
         revealNegatedFloat(1.0f);
         revealNegatedFloat(6.0f);
         revealNegatedFloat(0.0f);
+        revealNegatedFloat(-9.0f);
     }
 
     private static void revealNegatedDouble(double number) {
