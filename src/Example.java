@@ -3,7 +3,7 @@ public class Example {
 
     private static NegateDecimal negateDecimal = new NegateDecimal();
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         System.out.println("---- DOUBLES ----");
         revealNegatedDouble(156.415);
         revealNegatedDouble(1);
