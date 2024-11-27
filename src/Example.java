@@ -10,9 +10,9 @@ public class Example {
         revealNegatedDouble(6.0);
         revealNegatedDouble(0);
         printHeading("FLOATS");
-        revealNegatedFloat(345.4f);
+        revealNegatedFloat(156.415f);
         revealNegatedFloat(1f);
-        revealNegatedFloat(8.0f);
+        revealNegatedFloat(6.0f);
         revealNegatedFloat(0f);
     }
 
