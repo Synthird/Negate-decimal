@@ -19,3 +19,7 @@ Converts a positive float into a negative float.
 ```Java
 negateDecimal.negateFloat(5.0f); // Returns -5.0f as a float.
 ```
+
+# License
+
+This repository contains the MIT license. You must give credit if you are going to use its source code.
