@@ -25,7 +25,11 @@ negateDecimal.negateDouble(0.0); // Returns 0.0 as a double.
 ```
 
 ```Java
-negateDecimal.negateDouble(9.0); // Returns 9.0 as a double.
+negateDecimal.negateDouble(-9.0); // Returns 9.0 as a double.
+```
+
+```Java
+negateDecimal.negateDouble(-16.5); // Returns -16.5 as a double.
 ```
 
 ### negateDecimal.negateFloat(float decimalFloat) | Returns a float
@@ -33,19 +37,23 @@ negateDecimal.negateDouble(9.0); // Returns 9.0 as a double.
 Converts a positive float into a negative float.
 
 ```Java
-negateDecimal.negateFloat(5.0f); // Returns -5.0f as a float.
+negateDecimal.negateFloat(5.0f); // Returns -5.0 as a float.
 ```
 
 ```Java
-negateDecimal.negateFloat(5.61f); // Returns -5.61f as a float.
+negateDecimal.negateFloat(5.61f); // Returns -5.61 as a float.
 ```
 
 ```Java
-negateDecimal.negateFloat(0.0f); // Returns 0.0f as a float.
+negateDecimal.negateFloat(0.0f); // Returns 0.0 as a float.
 ```
 
 ```Java
-negateDecimal.negateFloat(-9.0f); // Returns 9.0f as a float.
+negateDecimal.negateFloat(-9.0f); // Returns 9.0 as a float.
+```
+
+```Java
+negateDecimal.negateFloat(-16.5f); // Returns -16.5 as a float.
 ```
 
 # License

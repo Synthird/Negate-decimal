@@ -10,12 +10,14 @@ public class Example {
         revealNegatedDouble(6.0);
         revealNegatedDouble(0);
         revealNegatedDouble(-9.0);
+        revealNegatedDouble(-16.5);
         printHeading("FLOATS");
         revealNegatedFloat(156.415f);
         revealNegatedFloat(1.0f);
         revealNegatedFloat(6.0f);
         revealNegatedFloat(0.0f);
         revealNegatedFloat(-9.0f);
+        revealNegatedFloat(-16.5f);
     }
 
     private static void revealNegatedDouble(double number) {
