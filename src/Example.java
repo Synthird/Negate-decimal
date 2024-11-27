@@ -27,7 +27,7 @@ public class Example {
 
     private static void revealNegatedFloat(float number) {
         System.out.println(String.format("Negated float of %sf:", number));
-        System.out.println(negateDecimal.negateFloat(number));
+        System.out.println(String.format("%sf", negateDecimal.negateFloat(number)));
     }
 
     private static void printHeading(String title) {
