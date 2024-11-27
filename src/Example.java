@@ -6,14 +6,14 @@ public class Example {
     public static void main(String[] args) {
         printHeading("DOUBLES");
         revealNegatedDouble(156.415);
-        revealNegatedDouble(1);
+        revealNegatedDouble(1.0);
         revealNegatedDouble(6.0);
         revealNegatedDouble(0);
         printHeading("FLOATS");
         revealNegatedFloat(156.415f);
-        revealNegatedFloat(1f);
+        revealNegatedFloat(1.0f);
         revealNegatedFloat(6.0f);
-        revealNegatedFloat(0f);
+        revealNegatedFloat(0.0f);
     }
 
     private static void revealNegatedDouble(double number) {
