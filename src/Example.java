@@ -7,10 +7,12 @@ public class Example {
         printHeading("DOUBLES");
         revealNegatedDouble(156.415);
         revealNegatedDouble(1);
+        revealNegatedDouble(6.0);
         revealNegatedDouble(0);
         printHeading("FLOATS");
         revealNegatedFloat(345.4f);
         revealNegatedFloat(1f);
+        revealNegatedFloat(8.0f);
         revealNegatedFloat(0f);
     }
 
