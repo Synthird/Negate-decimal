@@ -1,6 +1,6 @@
 # Negate decimal
 
-Methods that convert positive decimals into negative decimals. They also convert negative decimals into positive decimals.
+Methods that convert positive decimals into negative decimals and vice versa.
 
 ```Java
 NegateDecimal negateDecimal = new NegateDecimal(); // One way of getting the negateDecimal class.
