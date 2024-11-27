@@ -16,12 +16,20 @@ Converts a positive double into a negative double.
 negateDecimal.negateDouble(5.0); // Returns -5.0 as a double.
 ```
 
+```Java
+negateDecimal.negateDouble(5.61); // Returns -5.61 as a double.
+```
+
 ### negateDecimal.negateFloat(float decimalFloat) | Returns a float
 
 Converts a positive float into a negative float.
 
 ```Java
 negateDecimal.negateFloat(5.0f); // Returns -5.0f as a float.
+```
+
+```Java
+negateDecimal.negateFloat(5.61f); // Returns -5.61f as a float.
 ```
 
 # License
