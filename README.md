@@ -29,7 +29,7 @@ negateDecimal.negateDouble(-9.0); // Returns 9.0 as a double.
 ```
 
 ```Java
-negateDecimal.negateDouble(-16.5); // Returns -16.5 as a double.
+negateDecimal.negateDouble(-16.5); // Returns 16.5 as a double.
 ```
 
 ### negateDecimal.negateFloat(float decimalFloat) | Returns a float
@@ -53,7 +53,7 @@ negateDecimal.negateFloat(-9.0f); // Returns 9.0 as a float.
 ```
 
 ```Java
-negateDecimal.negateFloat(-16.5f); // Returns -16.5 as a float.
+negateDecimal.negateFloat(-16.5f); // Returns 16.5 as a float.
 ```
 
 # License
