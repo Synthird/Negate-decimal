@@ -1,5 +1,4 @@
 public class NegateDecimal {
-
     public float negateFloat(float decimalFloat) {
         return decimalFloat - decimalFloat - decimalFloat;
     }
