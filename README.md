@@ -15,11 +15,11 @@ NegateDecimal negateDecimal = new NegateDecimal(); // One way of getting the neg
 Converts a positive double into a negative double and vice versa.
 
 ```Java
-negateDecimal.negateDouble(5.0); // Returns -5.0 as a double.
+negateDecimal.negateDouble(6.0); // Returns -6.0 as a double.
 ```
 
 ```Java
-negateDecimal.negateDouble(5.61); // Returns -5.61 as a double.
+negateDecimal.negateDouble(156.415); // Returns -156.415 as a double.
 ```
 
 ```Java
@@ -39,11 +39,11 @@ negateDecimal.negateDouble(-16.5); // Returns 16.5 as a double.
 Converts a positive float into a negative float and vice versa.
 
 ```Java
-negateDecimal.negateFloat(5.0f); // Returns -5.0 as a float.
+negateDecimal.negateFloat(6.0f); // Returns -6.0 as a float.
 ```
 
 ```Java
-negateDecimal.negateFloat(5.61f); // Returns -5.61 as a float.
+negateDecimal.negateFloat(156.415f); // Returns -156.415 as a float.
 ```
 
 ```Java
