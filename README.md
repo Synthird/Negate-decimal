@@ -9,7 +9,7 @@ Methods that convert positive decimals into negative decimals.
 Converts a positive float into a negative float.
 
 ```Java
-negateDecimal.negateFloat(5.0); // Returns -5.0f as a float.
+negateDecimal.negateFloat(5.0f); // Returns -5.0f as a float.
 ```
 
 ### negateDecimal.negateDouble(double decimalDouble) | Returns a double
