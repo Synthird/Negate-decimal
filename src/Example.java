@@ -8,7 +8,7 @@ public class Example {
         revealNegatedDouble(156.415);
         revealNegatedDouble(1.0);
         revealNegatedDouble(6.0);
-        revealNegatedDouble(0);
+        revealNegatedDouble(0.0);
         revealNegatedDouble(-9.0);
         revealNegatedDouble(-16.5);
         printHeading("FLOATS");
