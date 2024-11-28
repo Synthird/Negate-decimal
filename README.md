@@ -1,6 +1,6 @@
 # Negate decimal
 
-Methods that convert positive decimals into negative decimals and vice versa.
+Negate decimal methods that convert positive decimals into negative decimals and vice versa.
 
 The negateDecimal class can be accessed in the [src folder](src) or by [clicking here](src/NegateDecimal.java).
 
