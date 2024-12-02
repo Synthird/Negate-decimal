@@ -1,6 +1,6 @@
-public class Example {
-    // This file is an example of using the negateDecimal methods.
+// This file is an example of using the negateDecimal methods.
 
+public class Example {
     private static NegateDecimal negateDecimal = new NegateDecimal();
 
     public static void main(String[] args) {
