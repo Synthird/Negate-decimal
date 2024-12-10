@@ -1,7 +1,7 @@
 public class NegateDecimal {
     /**
      * @param decimalFloat
-     * @return The negated decimal of a float.
+     * @return A positive float that is converted into a negative float and vice versa.
      */
     public float negateFloat(float decimalFloat) {
         return decimalFloat - decimalFloat - decimalFloat;
@@ -9,7 +9,7 @@ public class NegateDecimal {
 
     /**
      * @param decimalDouble
-     * @return The negated decimal of a double.
+     * @return A positive double that is converted into a negative double and vice versa.
      */
     public double negateDouble(double decimalDouble) {
         return decimalDouble - decimalDouble - decimalDouble;
