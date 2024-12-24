@@ -58,6 +58,6 @@ negateDecimal.negateFloat(-9.0f); // Returns 9.0 as a float.
 negateDecimal.negateFloat(-16.5f); // Returns 16.5 as a float.
 ```
 
-# License
+## License
 
 This repository contains the MIT license. You must give credit if you are going to use its source code.
