@@ -14,6 +14,8 @@ NegateDecimal negateDecimal = new NegateDecimal(); // One way of getting the neg
 
 Returns a negative version of a positive double and vice versa.
 
+#### Examples
+
 ```Java
 negateDecimal.negateDouble(6.0); // Returns -6.0 as a double.
 ```
@@ -37,6 +39,8 @@ negateDecimal.negateDouble(-16.5); // Returns 16.5 as a double.
 ### negateDecimal.negateFloat(float decimalFloat) | Returns a float
 
 Returns a negative version of a positve float and vice versa.
+
+#### Examples <!-- markdownlint-disable-line MD024 -->
 
 ```Java
 negateDecimal.negateFloat(6.0f); // Returns -6.0 as a float.
