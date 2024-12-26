@@ -4,7 +4,7 @@ public class NegateDecimal {
 	 * @return Returns a negative version of a positive double and vice versa.
 	 */
 	public float negateFloat(float decimalFloat) {
-		return decimalFloat - decimalFloat - decimalFloat;
+		return decimalFloat * -1.0f;
 	}
 
 	/**
@@ -12,6 +12,6 @@ public class NegateDecimal {
 	 * @return Returns a negative version of a positive float and vice versa.
 	 */
 	public double negateDouble(double decimalDouble) {
-		return decimalDouble - decimalDouble - decimalDouble;
+		return decimalDouble * -1.0;
 	}
 }
