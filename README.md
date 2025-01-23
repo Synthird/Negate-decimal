@@ -4,8 +4,12 @@ Negate decimal methods that convert positive decimals into negative decimals and
 
 The negateDecimal class can be accessed in the [src folder](src) or by [clicking here](src/NegateDecimal.java).
 
+> [!IMPORTANT]
+> The negateDecimal class must be inside your project before any methods can be used.
+
 ```Java
-NegateDecimal negateDecimal = new NegateDecimal(); // One way of getting the negateDecimal class.
+// One way of getting the negateDecimal class inside your project. This requires the class to be in the same folder as the file using this code.
+NegateDecimal negateDecimal = new NegateDecimal();
 ```
 
 ## Negate decimal methods
