@@ -62,6 +62,18 @@ negateDecimal.negateFloat(-9.0f); // Returns 9.0 as a float.
 negateDecimal.negateFloat(-16.5f); // Returns 16.5 as a float.
 ```
 
+### negateDecimal.negate(float or double decimal) | Returns a float or double
+
+Returns a negative version of a positve float or negative float and vice versa depending on the datatype placed in the parameter.
+
+```Java
+negateDecimal.negate(156.415); // Returns -156.415 as a double.
+```
+
+```Java
+negateDecimal.negate(156.415f); // Returns -156.415 as a float.
+```
+
 ## License
 
 This repository contains the MIT license. You must give credit if you are going to use its source code.
