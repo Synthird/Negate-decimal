@@ -16,18 +16,18 @@ public class NegateDecimal {
 	}
 
 	/**
-	 * @param decimalDouble
+	 * @param decimal
 	 * @return Returns a negative version of a positive double and vice versa.
 	 */
-	public double negate(double decimalDouble) {
-		return negateDouble(decimalDouble);
+	public double negate(double decimal) {
+		return negateDouble(decimal);
 	}
 
 	/**
-	 * @param decimalFloat
+	 * @param decimal
 	 * @return Returns a negative version of a positive float and vice versa.
 	 */
-	public float negate(float decimalFloat) {
-		return negateFloat(decimalFloat);
+	public float negate(float decimal) {
+		return negateFloat(decimal);
 	}
 }
