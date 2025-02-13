@@ -21,6 +21,8 @@ public class Example {
 		printHeading("Using the negate method");
 		System.out.println(String.format("%sf", negateDecimal.negate(156.415f)));
 		System.out.println(negateDecimal.negate(156.415));
+		System.out.println(negateDecimal.negate(-14.3));
+		System.out.println(String.format("%sf", negateDecimal.negate(-14.3f)));
 	}
 
 	private static void revealNegatedDouble(double number) {
