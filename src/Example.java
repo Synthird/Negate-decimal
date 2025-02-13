@@ -18,6 +18,9 @@ public class Example {
 		revealNegatedFloat(0.0f);
 		revealNegatedFloat(-9.0f);
 		revealNegatedFloat(-16.5f);
+		printHeading("Using the negate method");
+		System.out.println(String.format("%sf", negateDecimal.negate(156.415f)));
+		System.out.println(negateDecimal.negate(156.415));
 	}
 
 	private static void revealNegatedDouble(double number) {
