@@ -75,11 +75,11 @@ negateDecimal.negate(156.415f); // Returns -156.415 as a float.
 ```
 
 ```Java
-negateDecimal.negate(-14.3f); // Returns -14.3 as a float.
+negateDecimal.negate(-14.3f); // Returns 14.3 as a float.
 ```
 
 ```Java
-negateDecimal.negate(-14.3); // Returns -156.415 as a double.
+negateDecimal.negate(-14.3); // Returns 14.3 as a double.
 ```
 
 ## License
