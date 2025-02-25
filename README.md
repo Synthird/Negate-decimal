@@ -82,6 +82,10 @@ negateDecimal.negate(-14.3f); // Returns 14.3 as a float.
 negateDecimal.negate(-14.3); // Returns 14.3 as a double.
 ```
 
+## Archival
+
+This repository has been archived. It will no longer maintained.
+
 ## License
 
-This repository contains the MIT license. You must give credit if you are going to use its source code.
+This repository contains the MIT license. You must give credit if you are going to use its source code. Even if it is archived.
